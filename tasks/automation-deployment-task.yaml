@@ -1,0 +1,39 @@
+---
+task_id: automation-github-pages-deployment
+type: automation-task
+priority: medium  
+from: manager-agent
+to: automation-expert
+issue_ref: "#16"
+assignee: "@Nicolas6910"
+depends_on: frontend-portfolio-html-css
+
+title: "GitHub Pages Deployment Automation"
+
+description: |
+  Automatiser déploiement portfolio sur GitHub Pages après création HTML/CSS.
+  Configuration CI/CD simple pour déploiement automatique.
+
+requirements:
+  - GitHub Actions workflow pour déploiement
+  - Configuration GitHub Pages
+  - Tests de validation HTML/CSS
+  - Déploiement automatique sur merge
+  - URL déploiement dans README
+
+deliverables:
+  - .github/workflows/deploy.yml
+  - gh-pages configuration
+  - README avec lien déploiement
+  - Tests basiques (HTML validity)
+
+constraints:
+  - Concis: 50 lignes max dans PR
+  - Déploiement rapide (<2 min)
+  - Fiable et simple
+  - Documentation minimale
+
+previous_agent: frontend-expert
+workflow: sequential
+status: waiting_for_dependency
+---
