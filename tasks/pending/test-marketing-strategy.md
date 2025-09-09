@@ -21,3 +21,7 @@ Document avec stratégie marketing de base incluant :
 
 ## Timeline
 Sous 2 heures pour ce test.
+
+---
+
+**🧪 CECI EST UN TEST du système multi-agents**
