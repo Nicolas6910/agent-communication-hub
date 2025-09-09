@@ -1,0 +1,37 @@
+---
+task_id: frontend-portfolio-html-css
+type: frontend-task
+priority: medium
+from: manager-agent
+to: frontend-expert
+issue_ref: "#16"
+assignee: "@Nicolas6910"
+
+title: "HTML/CSS Landing Page Portfolio avec Animations"
+
+description: |
+  Créer structure HTML moderne + CSS animations pour portfolio landing page.
+  Responsive design requis. Animations CSS natives uniquement.
+
+requirements:
+  - Structure HTML sémantique moderne
+  - CSS Grid/Flexbox pour layout responsive
+  - Animations CSS smooth (hover, scroll reveals)
+  - Design moderne et clean
+  - Performance optimisée
+  - Compatible mobiles/desktop
+
+deliverables:
+  - index.html (structure complète)
+  - styles.css (responsive + animations)
+  - assets/ (images si nécessaires)
+
+constraints:
+  - Concis: 50 lignes max dans PR
+  - Pas de frameworks JS
+  - CSS pur uniquement
+  - Cross-browser compatible
+
+next_agent: automation-expert
+workflow: sequential
+---
